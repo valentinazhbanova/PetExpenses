@@ -17,8 +17,8 @@ function calculateAmount(e){
 
     if(amount === '' || people === '' || people < 1) {
         Swal.fire(
-            'Нет данных',
-            'Введите информацию!',
+            'Error',
+            'Enter information!',
             'question'
         )
     }
