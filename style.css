@@ -1,0 +1,79 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1516453734593-8d198ae84bcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #a0b8ba;
+}
+
+.container {
+    background-color: rgba(160, 184, 186, 0.8);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 650px;
+    border-radius: 40px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    color: #000;
+    align-self: center;
+}
+
+input {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5px;
+    border: none;
+}
+
+#addTip {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
+#btn {
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
+#tip {
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 5px;
+    display: none;
+}
+
+#showTotalAmountToPay {
+    display: flex;
+}
+
+#billSplit, #totalTip, #totalAmount {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+@media all and (max-width:800px) {
+    h1 {
+        font-size: 20px;
+    }
+}
